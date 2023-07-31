@@ -17,7 +17,7 @@ void print_python_float(PyObject *p);
 void print_python_list(PyObject *p)
 {
 	long int size, i;
-	PyListObject *list;	
+	PyListObject *list;
 	PyObject *obj;
 
 	printf("[*] Python list info\n");
@@ -88,7 +88,7 @@ void print_python_bytes(PyObject *p)
 void print_python_float(PyObject *p)
 {
 	double val;
-	
+
 	printf("[.] float object info\n");
 
 	if (!PyFloat_Check(p))
