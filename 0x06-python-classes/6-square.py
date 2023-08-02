@@ -13,9 +13,9 @@ class Square:
         :type size: int
         :param position: The position of the square (default is (0, 0)).
         :type position: tuple of 2 positive integers
-        :raises TypeError: If size is not an integer 
+        :raises TypeError: If size is not an integer
         or if position is not a tuple of 2 positive integers.
-        :raises ValueError: If size is less than 0 
+        :raises ValueError: If size is less than 0
         or if position contains non-positive integers.
         """
         self.size = size
