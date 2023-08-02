@@ -60,17 +60,21 @@ class Square:
         return (self.area() != other.area())
 
     def __lt__(self, other):
-        """Check if the area of the current square is less than the area of another square."""
+        """Check if the area of the current square 
+        is less than the area of another square."""
         return (self.area() < other.area())
 
     def __le__(self, other):
-        """Check if the area of the current square is less than or equal to the area of another square."""
+        """Check if the area of the current square is less than 
+        or equal to the area of another square."""
         return (self.area() <= other.area())
 
     def __gt__(self, other):
-        """Check if the area of the current square is greater than the area of another square."""
+        """Check if the area of the current square is 
+        greater than the area of another square."""
         return (self.area() > other.area())
 
     def __ge__(self, other):
-        """Check if the area of the current square is greater than or equal to the area of another square."""
+        """Check if the area of the current square is greater than 
+        or equal to the area of another square."""
         return (self.area() >= other.area())

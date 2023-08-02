@@ -13,7 +13,8 @@ class Node:
         :type data: int
         :param next_node: The next node in the linked list (default is None).
         :type next_node: Node or None
-        :raises TypeError: If data is not an integer or if next_node is not a Node object.
+        :raises TypeError: If data is not an integer 
+        or if next_node is not a Node object.
         """
         self.data = data
         self.next_node = next_node
@@ -74,7 +75,8 @@ class SinglyLinkedList:
 
     def sorted_insert(self, value):
         """
-        Insert a new Node into the correct sorted position in the list (increasing order).
+        Insert a new Node into the correct sorted 
+        position in the list (increasing order).
 
         :param value: The value to be inserted in the list.
         :type value: int
