@@ -18,7 +18,8 @@ class Rectangle:
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
         """
-        # Increment the number of instances whenever a new Rectangle object is created
+        # Increment the number of instances
+        # whenever a new Rectangle object is created
         type(self).number_of_instances += 1
 
         self.width = width
